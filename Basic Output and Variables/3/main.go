@@ -5,7 +5,7 @@ package main
 import "fmt"
 
 func main() {
-	a, b := 1, 2
-	sum := a + b
-	fmt.Println("Sum of ", a, " and ", b, " is = ", sum)
+	fmt.Println("Sum is : ", func(a, b int) int {
+		return a + b
+	}(1, 2))
 }
