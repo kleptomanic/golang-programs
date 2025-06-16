@@ -10,6 +10,5 @@ func main() {
 			sum = sum + i
 		}
 		return sum
-
 	}(0))
 }
