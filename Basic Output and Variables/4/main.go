@@ -5,8 +5,6 @@ package main
 import "fmt"
 
 func main() {
-	floatvar := 3.14151617
-
-	decimal_var := fmt.Sprintf("%.2f", floatvar)
+	decimal_var := fmt.Sprintf("%.2f", 3.14151617)
 	fmt.Println(decimal_var)
 }
