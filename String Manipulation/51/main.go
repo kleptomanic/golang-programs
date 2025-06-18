@@ -4,14 +4,13 @@ package main
 
 import (
 	"fmt"
-	"strings"
 )
 
 func main() {
-	sample_string := " asdas"
-	if strings.TrimSpace(sample_string) == "" {
-		fmt.Println("Empty string is found.")
+	sample_string := ""
+	if len(sample_string) == 0 {
+		fmt.Println("Empty String")
 	} else {
-		fmt.Println("Non Empty string is found ->", sample_string)
+		fmt.Println("Non Empty String")
 	}
 }
