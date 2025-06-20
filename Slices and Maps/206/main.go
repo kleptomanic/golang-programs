@@ -9,6 +9,7 @@ import (
 func main() {
 	list := []int{1, 2, 3, 4, 5, 6}
 
+	// Using builtin function
 	// slices.Reverse(list)
 
 	// Old style
