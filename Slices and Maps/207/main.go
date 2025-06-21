@@ -9,16 +9,13 @@ import (
 
 func main() {
 	sli := []string{"kaushik", "1", "kau7", "bibek"}
-
 	if len(sli) < 1 {
 		fmt.Println("Slice is empty.")
 	}
-
 	// Using contains any functions checks for number string
 	for _, i := range sli {
 		fmt.Println(strings.ContainsAny(i, "0123456789"))
 	}
-
 	// Using containsfunc
 	fmt.Println()
 	number := func(r rune) bool {
