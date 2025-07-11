@@ -1,13 +1,13 @@
-// Find the minimum in a slice.
+// Create a map of students to grades.
 
 package main
 
-import (
-	"fmt"
-	"slices"
-)
+import "fmt"
 
 func main() {
-	sli := []int{-1, -10, 1, 55, 90}
-	fmt.Println(slices.Min(sli))
+	studentData := map[string]string{
+		"Ram":  "A+",
+		"Hari": "B",
+	}
+	fmt.Println(studentData)
 }
